@@ -1,0 +1,119 @@
+.book-details-footer-container {
+  background-color: #f2f3f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 19px 30px 0px 30px;
+}
+.book-detail-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .book-detail-container {
+    background-color: #ffffff;
+    border-radius: 9px;
+    margin: 10px;
+    padding: 20px;
+  }
+}
+
+.book-top-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .book-top-section-container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+}
+
+.line {
+  color: #94a3b8;
+  width: 100%;
+}
+.book-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  margin: 6px;
+}
+@media screen and (min-width: 768px) {
+  .book-item-container {
+    width: 320px;
+  }
+}
+.cover-pic {
+  height: 185px;
+  width: 133px;
+  border-radius: 4px;
+  margin: 3px;
+}
+.book-cover-pic-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.book-title {
+  color: #334155;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+}
+.author {
+  color: #475569;
+  font-family: Inter;
+  margin-top: -8px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: -19px;
+  margin-bottom: -19px;
+}
+.book-status {
+  font-family: Inter;
+  color: #475569;
+  font-size: 12px;
+}
+.status {
+  color: #0284c7;
+}
+.rating-text {
+  color: #475569;
+  font-family: Inter;
+  font-size: 12px;
+}
+.star-icon {
+  color: #fbbf24;
+  margin: 6px;
+}
+.rating {
+  font-family: HK Grotesk;
+  color: #334155;
+}
+.auhtor-heading {
+  color: #334155;
+  font-size: 16px;
+  font-family: Inter;
+}
+.author-description {
+  color: #475569;
+  font-size: 14px;
+  font-family: Inter;
+}
+.top-rated-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

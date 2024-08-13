@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+}
+.icon {
+  color: #3d3c3c;
+  margin: 9px;
+}
+.contact-us-heading {
+  color: #3d3c3c;
+  font-family: HK Grotesk;
+  font-size: 16px;
+}

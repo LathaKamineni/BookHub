@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0px;
+}
+
+.books-shelves-contianer {
+  background-color: #f2f3f4;
+  min-height: 100vh;
+}
+.shelves-books-container {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .shelves-books-container {
+    flex-direction: row;
+  }
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px #bfbfbf solid;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    display: none;
+  }
+}
+.search-desktop-container {
+  display: flex;
+  border: 1px #bfbfbf solid;
+  border-radius: 5px;
+}
+.input-search {
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 10px;
+  color: #94a3b8;
+  font-family: Inter;
+  padding: 9px;
+}
+.search-icon-button {
+  background-color: #edeff1;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 3px 10px 3px 10px;
+}
+.search-icon {
+  color: #94a3b8;
+}
+.book-shelves-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+.book-shelves-heading {
+  color: #334155;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+.book-shelves-options-list {
+  list-style-type: none;
+  margin-top: 3px;
+  margin-left: -45px;
+}
+@media screen and (min-width: 768px) {
+  .book-shelves-options-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .book-shelves-container {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+}
+.books-list-contianer {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-books-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.no-books-description {
+  color: #475569;
+  font-family: Inter;
+}
+@media screen and (min-width: 768px) {
+  .loader-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.search-container-desktop-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 13px;
+}
+
+@media screen and (max-width: 767px) {
+  .search-container-desktop-view {
+    display: none;
+  }
+}
+.book-status {
+  font-family: Inter;
+  font-size: 18px;
+  color: #334155;
+}
+.books-view {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.books-footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}

@@ -1,0 +1,75 @@
+.hambuger-container {
+  background-color: #ffffff;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6px;
+  padding-right: 6px;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.hambuger-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .hambuger-button {
+    display: none;
+  }
+}
+.options {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.options-list {
+  list-style-type: none;
+  display: flex;
+}
+.link-item {
+  text-decoration: none;
+  font-family: Inter;
+  margin: 7px;
+  color: #64748b;
+}
+.logout-button {
+  background-color: #0284c7;
+  margin-left: 8px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #f8fafc;
+  font-family: Inter;
+  border-radius: 5px;
+  margin-right: 14px;
+}
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 7px;
+}
+@media screen and (min-width: 768px) {
+  .close-button {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .desktop-options {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-view-options {
+    display: none;
+  }
+}

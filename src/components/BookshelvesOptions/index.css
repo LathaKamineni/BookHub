@@ -1,0 +1,44 @@
+.book-shelve-button {
+  border: 1px #0284c7 solid;
+  background-color: transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 4px, 8px, 4px, 8px;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .book-shelve-button {
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+  }
+}
+.book-shelve-option {
+  color: #0284c7;
+  font-family: Inter;
+  font-size: 12px;
+  padding: 4px;
+}
+@media screen and (min-width: 768px) {
+  .book-shelve-option {
+    color: #475569;
+    padding: 0px;
+    text-align: start;
+  }
+}
+.active-shelf {
+  background-color: #0284c7;
+}
+@media screen and (min-width: 768px) {
+  .active-shelf {
+    background-color: transparent;
+  }
+}
+.active-shelf-value {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .active-shelf-value {
+    color: #0284c7;
+  }
+}
